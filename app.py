@@ -20,7 +20,7 @@ if st.button("JUGAR"):
     numero_aleatorio = random.choice(numeros)
 
     # Obtener la fecha actual en formato AAAA/MM/DD
-    fecha_actual = datetime.now().strftime("%Y/%m/%d")
+    fecha_actual = datetime.today().strftime("%Y/%m/%d")
 
     # Mostrar el resultado
     st.success(f"**El número ganador es:** {numero_aleatorio}")
