@@ -12,7 +12,7 @@ st.set_page_config(
     page_icon="icon2.ico"
 )
 
-img = Image.open("QL.png")
+img = Image.open("QL2.png")
 st.image(img, use_container_width=True)
 
 if st.button("JUGAR"):
